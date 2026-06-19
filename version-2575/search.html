@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>全站搜索-国产精选电视剧-精选剧集片库-分类内容持续更新</title>
+  <meta name="description" content="搜索国产精选电视剧、精选剧集、热门片库、分类更新与高分电视剧。">
+  <meta name="keywords" content="国产精选电视剧,精选剧集,国产电视剧,分类更新,电视剧片库,热门剧集,高分电视剧">
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html" aria-label="国产剧集片库">
+      <span class="brand-icon" aria-hidden="true">▣</span>
+      <span class="brand-text">国产剧集片库</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="打开导航" data-nav-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="nav-menu" data-nav-menu>
+      <a class="nav-link" href="index.html">首页</a> <a class="nav-link" href="categories.html">分类</a> <a class="nav-link" href="rankings.html">排行榜</a> <a class="nav-link is-active" href="search.html">搜索</a>
+    </div>
+  </div>
+</nav>
+<main class="page-shell">
+  <header class="page-hero compact-hero search-hero">
+    <span class="eyebrow">搜索/筛选</span>
+    <h1>全站搜索</h1>
+    <p>输入片名、地区、类型、年份、题材或标签，快速定位站内剧集内容。</p>
+    <div class="search-box" data-search-page>
+      <input type="search" id="global-search" placeholder="搜索片名、题材、演员线索或关键词" autocomplete="off">
+      <select id="global-category">
+        <option value="">全部分类</option>
+          <option value="国产剧集">国产剧集</option>
+          <option value="都市情感">都市情感</option>
+          <option value="悬疑犯罪">悬疑犯罪</option>
+          <option value="喜剧生活">喜剧生活</option>
+          <option value="动作奇幻">动作奇幻</option>
+          <option value="家庭现实">家庭现实</option>
+          <option value="古装武侠">古装武侠</option>
+          <option value="动画综艺">动画综艺</option>
+      </select>
+      <button type="button" id="global-search-button">搜索</button>
+    </div>
+  </header>
+  <section class="content-section no-top-space">
+    <div class="section-head">
+      <div>
+        <h2>搜索结果</h2>
+        <p id="search-count">输入关键词后显示匹配内容。</p>
+      </div>
+    </div>
+    <div class="movie-grid four-cols" id="search-results"></div>
+  </section>
+  <section class="content-section">
+  <div class="section-head">
+    <div>
+      <h2>热门入口</h2>
+      <p>可直接浏览的精选内容。</p>
+    </div>
+    
+  </div>
+    <div class="movie-grid four-cols">
+    <article class="movie-card compact-card" data-movie-card data-search="富有的新娘 泰国 电视剧 2021 爱情 / 喜剧 豪门 契约婚姻 泰剧 反转 她以为自己嫁了个穷小子，婚礼当天发现对方是泰国首富，而首富家要求她“务必继续保持贫穷”。 动作奇幻" data-year="2021" data-type="电视剧">
+      <a class="card-link" href="movies/movie-0001.html">
+        <figure class="card-cover">
+          <img src="1.jpg" alt="富有的新娘" loading="lazy">
+          <figcaption>全19集</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>富有的新娘</h3>
+          <p>她以为自己嫁了个穷小子，婚礼当天发现对方是泰国首富，而首富家要求她“务必继续保持贫穷”。</p>
+          <div class="card-meta">
+            <span>动作奇幻</span>
+            <span>2021</span>
+          </div>
+          <div class="card-tags">豪门 / 契约婚姻 / 泰剧</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="现代豪侠传 中国香港 电影 1993 动作 / 科幻 / 武侠 女英雄 末世 改造人 杜琪峰 核战后的废土上，三个女侠客保护最后的水源，对抗机械军阀。 家庭现实" data-year="1993" data-type="电影">
+      <a class="card-link" href="movies/movie-0002.html">
+        <figure class="card-cover">
+          <img src="2.jpg" alt="现代豪侠传" loading="lazy">
+          <figcaption>1:48:00</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>现代豪侠传</h3>
+          <p>核战后的废土上，三个女侠客保护最后的水源，对抗机械军阀。</p>
+          <div class="card-meta">
+            <span>家庭现实</span>
+            <span>1993</span>
+          </div>
+          <div class="card-tags">女英雄 / 末世 / 改造人</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="三峡人家 中国大陆 电影 2025 剧情 / 家庭 三峡 拆迁 父女 故乡 现实主义 三峡工程前夕，返乡的女儿试图说服固执的父亲离开老宅，却揭开了一个埋藏三十年的家族秘密。 动作奇幻" data-year="2025" data-type="电影">
+      <a class="card-link" href="movies/movie-0003.html">
+        <figure class="card-cover">
+          <img src="3.jpg" alt="三峡人家" loading="lazy">
+          <figcaption>全33集</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>三峡人家</h3>
+          <p>三峡工程前夕，返乡的女儿试图说服固执的父亲离开老宅，却揭开了一个埋藏三十年的家族秘密。</p>
+          <div class="card-meta">
+            <span>动作奇幻</span>
+            <span>2025</span>
+          </div>
+          <div class="card-tags">三峡 / 拆迁 / 父女</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="我是你的百搭 中国台湾 剧集 2016 爱情, 喜剧, 剧情 备胎 穿搭 暖男 治愈 都市 他是职场里永远“百搭”的救火队员，却成了她生活中最不可或缺的专属搭配师。 古装武侠" data-year="2016" data-type="剧集">
+      <a class="card-link" href="movies/movie-0004.html">
+        <figure class="card-cover">
+          <img src="4.jpg" alt="我是你的百搭" loading="lazy">
+          <figcaption>全40集</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>我是你的百搭</h3>
+          <p>他是职场里永远“百搭”的救火队员，却成了她生活中最不可或缺的专属搭配师。</p>
+          <div class="card-meta">
+            <span>古装武侠</span>
+            <span>2016</span>
+          </div>
+          <div class="card-tags">备胎 / 穿搭 / 暖男</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="飞越谜情粤语 中国香港 电影 1993 动作, 爱情, 警匪 卧底 失忆 粤语原声 街头飞车 卧底警察在一次爆炸中失忆，被黑道女友藏在飞鹅山，却同时被警方和黑帮追杀。 古装武侠" data-year="1993" data-type="电影">
+      <a class="card-link" href="movies/movie-0005.html">
+        <figure class="card-cover">
+          <img src="5.jpg" alt="飞越谜情粤语" loading="lazy">
+          <figcaption>1:42:00</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>飞越谜情粤语</h3>
+          <p>卧底警察在一次爆炸中失忆，被黑道女友藏在飞鹅山，却同时被警方和黑帮追杀。</p>
+          <div class="card-meta">
+            <span>古装武侠</span>
+            <span>1993</span>
+          </div>
+          <div class="card-tags">卧底 / 失忆 / 粤语原声</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="第八天之夜 韩国 电影 2021 悬疑 / 恐怖 / 惊悚 佛教元素 封印 驱魔 反转 一颗被封印了千年的恶眼挣脱枷锁，它会在七天之内通过人的邪念寄生，并在第八天的夜晚打开人间通往地狱的大门。 动作奇幻" data-year="2021" data-type="电影">
+      <a class="card-link" href="movies/movie-0006.html">
+        <figure class="card-cover">
+          <img src="6.jpg" alt="第八天之夜" loading="lazy">
+          <figcaption>1:55:00</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>第八天之夜</h3>
+          <p>一颗被封印了千年的恶眼挣脱枷锁，它会在七天之内通过人的邪念寄生，并在第八天的夜晚打开人间通往地狱的大门。</p>
+          <div class="card-meta">
+            <span>动作奇幻</span>
+            <span>2021</span>
+          </div>
+          <div class="card-tags">佛教元素 / 封印 / 驱魔</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="金钻裁女 中国香港 电影 2025 喜剧, 时装 裁缝 豪门 逆袭 职场 贫民窟的裁缝天才，靠一把剪刀混进了香港顶级名媛圈。 都市情感" data-year="2025" data-type="电影">
+      <a class="card-link" href="movies/movie-0007.html">
+        <figure class="card-cover">
+          <img src="7.jpg" alt="金钻裁女" loading="lazy">
+          <figcaption>全28集</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>金钻裁女</h3>
+          <p>贫民窟的裁缝天才，靠一把剪刀混进了香港顶级名媛圈。</p>
+          <div class="card-meta">
+            <span>都市情感</span>
+            <span>2025</span>
+          </div>
+          <div class="card-tags">裁缝 / 豪门 / 逆袭</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="来魔女食堂吧 韩国 剧集 2024 奇幻剧情 魔女 愿望交换 代价 治愈 单元剧 一家只在午夜开门的神秘食堂，魔女为你实现任何愿望，但代价是你生命中最珍贵的东西——不一定是灵魂。 悬疑犯罪" data-year="2024" data-type="剧集">
+      <a class="card-link" href="movies/movie-0008.html">
+        <figure class="card-cover">
+          <img src="8.jpg" alt="来魔女食堂吧" loading="lazy">
+          <figcaption>全35集</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>来魔女食堂吧</h3>
+          <p>一家只在午夜开门的神秘食堂，魔女为你实现任何愿望，但代价是你生命中最珍贵的东西——不一定是灵魂。</p>
+          <div class="card-meta">
+            <span>悬疑犯罪</span>
+            <span>2024</span>
+          </div>
+          <div class="card-tags">魔女 / 愿望交换 / 代价</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="旺角街头 中国香港 电影 2025 爱情 / 剧情 旺角 市井爱情 命运 怀旧 他是鱼蛋摊的少东，她是夜总会的侍应，一条霓虹街巷困住了两代人的爱欲纠葛。 家庭现实" data-year="2025" data-type="电影">
+      <a class="card-link" href="movies/movie-0009.html">
+        <figure class="card-cover">
+          <img src="9.jpg" alt="旺角街头" loading="lazy">
+          <figcaption>全42集</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>旺角街头</h3>
+          <p>他是鱼蛋摊的少东，她是夜总会的侍应，一条霓虹街巷困住了两代人的爱欲纠葛。</p>
+          <div class="card-meta">
+            <span>家庭现实</span>
+            <span>2025</span>
+          </div>
+          <div class="card-tags">旺角 / 市井爱情 / 命运</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="今夜我属于你 韩国 电影 2025 爱情, 奇幻 一夜情 时间循环 命运 催泪 一个不相信爱情的女人，一夜情后陷入时间循环，永远无法离开那个男人的公寓。 动画综艺" data-year="2025" data-type="电影">
+      <a class="card-link" href="movies/movie-0010.html">
+        <figure class="card-cover">
+          <img src="10.jpg" alt="今夜我属于你" loading="lazy">
+          <figcaption>2:02:00</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>今夜我属于你</h3>
+          <p>一个不相信爱情的女人，一夜情后陷入时间循环，永远无法离开那个男人的公寓。</p>
+          <div class="card-meta">
+            <span>动画综艺</span>
+            <span>2025</span>
+          </div>
+          <div class="card-tags">一夜情 / 时间循环 / 命运</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="新娘与偏见 印度 电影 2025 喜剧 / 歌舞 倒置婚礼 种姓制度 孟买奇遇 新婚夜，新娘突然喊停，提出要按“女方打分制”重新考核新郎，否则这桩门当户对的婚姻就不算数。 都市情感" data-year="2025" data-type="电影">
+      <a class="card-link" href="movies/movie-0011.html">
+        <figure class="card-cover">
+          <img src="11.jpg" alt="新娘与偏见" loading="lazy">
+          <figcaption>全23集</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>新娘与偏见</h3>
+          <p>新婚夜，新娘突然喊停，提出要按“女方打分制”重新考核新郎，否则这桩门当户对的婚姻就不算数。</p>
+          <div class="card-meta">
+            <span>都市情感</span>
+            <span>2025</span>
+          </div>
+          <div class="card-tags">倒置婚礼 / 种姓制度 / 孟买奇遇</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="像雾像雨又像风 中国大陆 电视剧 2021 爱情 / 悬疑 记忆迷局 替身文学 时空交错 都市悬爱 一场车祸让她失忆，三个男人都自称是她未婚夫，而她手机里只存着一个陌生号码。 悬疑犯罪" data-year="2021" data-type="电视剧">
+      <a class="card-link" href="movies/movie-0012.html">
+        <figure class="card-cover">
+          <img src="12.jpg" alt="像雾像雨又像风" loading="lazy">
+          <figcaption>全30集</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>像雾像雨又像风</h3>
+          <p>一场车祸让她失忆，三个男人都自称是她未婚夫，而她手机里只存着一个陌生号码。</p>
+          <div class="card-meta">
+            <span>悬疑犯罪</span>
+            <span>2021</span>
+          </div>
+          <div class="card-tags">记忆迷局 / 替身文学 / 时空交错</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="邪降女帝 泰国 电影 2018 恐怖 / 奇幻 降头 复仇 古装 血腥 被献祭的公主化为邪降之体，向灭门仇人展开持续三个世纪的诅咒。 动作奇幻" data-year="2018" data-type="电影">
+      <a class="card-link" href="movies/movie-0013.html">
+        <figure class="card-cover">
+          <img src="13.jpg" alt="邪降女帝" loading="lazy">
+          <figcaption>1:56:00</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>邪降女帝</h3>
+          <p>被献祭的公主化为邪降之体，向灭门仇人展开持续三个世纪的诅咒。</p>
+          <div class="card-meta">
+            <span>动作奇幻</span>
+            <span>2018</span>
+          </div>
+          <div class="card-tags">降头 / 复仇 / 古装</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="风中奇缘 美国 动画电影 1995 动画, 歌舞, 爱情, 冒险 自然灵性 文化冲突 爱情选择 土地守护 历史寓言 当风开始替大地说话，一位不愿被命运安排的少女必须在族群、爱情与家园之间，做出足以改变所有人的选择。 家庭现实" data-year="1995" data-type="动画电影">
+      <a class="card-link" href="movies/movie-0014.html">
+        <figure class="card-cover">
+          <img src="14.jpg" alt="风中奇缘" loading="lazy">
+          <figcaption>1:24:00</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>风中奇缘</h3>
+          <p>当风开始替大地说话，一位不愿被命运安排的少女必须在族群、爱情与家园之间，做出足以改变所有人的选择。</p>
+          <div class="card-meta">
+            <span>家庭现实</span>
+            <span>1995</span>
+          </div>
+          <div class="card-tags">自然灵性 / 文化冲突 / 爱情选择</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="三个老友 德国 电影 2024 喜剧，剧情 老年 友谊 公路 遗愿清单 三个年过七旬的老友，决定在其中一个被送进养老院之前，完成他们年轻时写下的疯狂遗愿清单。 悬疑犯罪" data-year="2024" data-type="电影">
+      <a class="card-link" href="movies/movie-0015.html">
+        <figure class="card-cover">
+          <img src="15.jpg" alt="三个老友" loading="lazy">
+          <figcaption>全18集</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>三个老友</h3>
+          <p>三个年过七旬的老友，决定在其中一个被送进养老院之前，完成他们年轻时写下的疯狂遗愿清单。</p>
+          <div class="card-meta">
+            <span>悬疑犯罪</span>
+            <span>2024</span>
+          </div>
+          <div class="card-tags">老年 / 友谊 / 公路</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="蜗牛参议员 美国 剧集 2025 喜剧 / 奇幻 政治讽刺 慢速 变异 职场 一场基因事故后，一位急脾气参议员变成了行动极慢的蜗牛人，却意外成了政坛清流。 喜剧生活" data-year="2025" data-type="剧集">
+      <a class="card-link" href="movies/movie-0016.html">
+        <figure class="card-cover">
+          <img src="16.jpg" alt="蜗牛参议员" loading="lazy">
+          <figcaption>全25集</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>蜗牛参议员</h3>
+          <p>一场基因事故后，一位急脾气参议员变成了行动极慢的蜗牛人，却意外成了政坛清流。</p>
+          <div class="card-meta">
+            <span>喜剧生活</span>
+            <span>2025</span>
+          </div>
+          <div class="card-tags">政治讽刺 / 慢速 / 变异</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="朝九晚五 美国 电影 1980 喜剧/职场 女性主义 办公室喜剧 职场霸凌 复仇 80年代 三个女职员受够了色情狂老板，阴差阳错把他绑架并关在家里，然后轮流去扮演ceo。 动作奇幻" data-year="1980" data-type="电影">
+      <a class="card-link" href="movies/movie-0017.html">
+        <figure class="card-cover">
+          <img src="17.jpg" alt="朝九晚五" loading="lazy">
+          <figcaption>全32集</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>朝九晚五</h3>
+          <p>三个女职员受够了色情狂老板，阴差阳错把他绑架并关在家里，然后轮流去扮演CEO。</p>
+          <div class="card-meta">
+            <span>动作奇幻</span>
+            <span>1980</span>
+          </div>
+          <div class="card-tags">女性主义 / 办公室喜剧 / 职场霸凌</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="卡里加利博士的小屋 德国 电影 1920 恐怖 / 悬疑 / 表现主义 默片 精神病院 扭曲视角 神秘的卡里加利博士操控一名梦游者在小镇上连环杀人，而这一切可能只是疯子的幻想。 都市情感" data-year="1920" data-type="电影">
+      <a class="card-link" href="movies/movie-0018.html">
+        <figure class="card-cover">
+          <img src="18.jpg" alt="卡里加利博士的小屋" loading="lazy">
+          <figcaption>1:31:00</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>卡里加利博士的小屋</h3>
+          <p>神秘的卡里加利博士操控一名梦游者在小镇上连环杀人，而这一切可能只是疯子的幻想。</p>
+          <div class="card-meta">
+            <span>都市情感</span>
+            <span>1920</span>
+          </div>
+          <div class="card-tags">默片 / 精神病院 / 扭曲视角</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="路上有狼 中国 网络剧 2017 悬疑， 犯罪， 公路 深夜大巴 连环杀手 暴雪山庄模式 长途车 身份互换 一辆从深圳开往哈尔滨的长途大巴深夜抛锚在荒山野岭，乘客一个接一个消失后，大家发现凶手每杀一人就换上死者的衣服和身份。 古装武侠" data-year="2017" data-type="网络剧">
+      <a class="card-link" href="movies/movie-0019.html">
+        <figure class="card-cover">
+          <img src="19.jpg" alt="路上有狼" loading="lazy">
+          <figcaption>全13集</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>路上有狼</h3>
+          <p>一辆从深圳开往哈尔滨的长途大巴深夜抛锚在荒山野岭，乘客一个接一个消失后，大家发现凶手每杀一人就换上死者的衣服和身份。</p>
+          <div class="card-meta">
+            <span>古装武侠</span>
+            <span>2017</span>
+          </div>
+          <div class="card-tags">深夜大巴 / 连环杀手 / 暴雪山庄模式</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="转身的距离 中国台湾 电影 2025 剧情 / 家庭 聋人家庭 亲情 听力植入 和解 一个天生全聋的女孩在接受了人工耳蜗手术后，第一次听到了母亲的声音，也第一次听到了父母的争吵。 家庭现实" data-year="2025" data-type="电影">
+      <a class="card-link" href="movies/movie-0020.html">
+        <figure class="card-cover">
+          <img src="20.jpg" alt="转身的距离" loading="lazy">
+          <figcaption>全20集</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>转身的距离</h3>
+          <p>一个天生全聋的女孩在接受了人工耳蜗手术后，第一次听到了母亲的声音，也第一次听到了父母的争吵。</p>
+          <div class="card-meta">
+            <span>家庭现实</span>
+            <span>2025</span>
+          </div>
+          <div class="card-tags">聋人家庭 / 亲情 / 听力植入</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="橙路特快 日本 电影 2024 爱情, 青春 列车 错过 重逢 夏日 纯爱 每年夏天，都有一对失散的情侣会在那趟橙色的列车上相遇，但他们的时间总是错开一天。 都市情感" data-year="2024" data-type="电影">
+      <a class="card-link" href="movies/movie-0021.html">
+        <figure class="card-cover">
+          <img src="21.jpg" alt="橙路特快" loading="lazy">
+          <figcaption>1:25:00</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>橙路特快</h3>
+          <p>每年夏天，都有一对失散的情侣会在那趟橙色的列车上相遇，但他们的时间总是错开一天。</p>
+          <div class="card-meta">
+            <span>都市情感</span>
+            <span>2024</span>
+          </div>
+          <div class="card-tags">列车 / 错过 / 重逢</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="情之债 中国大陆 电视剧 2008 剧情， 家庭， 伦理 收养 报恩 虐心 年代 催泪 三十年前她替闺蜜顶罪入狱，出狱后闺蜜成了富商太太，而她只想要回自己的亲生女儿。 都市情感" data-year="2008" data-type="电视剧">
+      <a class="card-link" href="movies/movie-0022.html">
+        <figure class="card-cover">
+          <img src="22.jpg" alt="情之债" loading="lazy">
+          <figcaption>全34集</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>情之债</h3>
+          <p>三十年前她替闺蜜顶罪入狱，出狱后闺蜜成了富商太太，而她只想要回自己的亲生女儿。</p>
+          <div class="card-meta">
+            <span>都市情感</span>
+            <span>2008</span>
+          </div>
+          <div class="card-tags">收养 / 报恩 / 虐心</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="一刻千金 中国内地 电影 2021 都市剧情 时间交易 职场博弈 亲情 抉择 悬念 现实寓言 当城市里出现可以买卖“分钟”的黑市规则后，一个本来只想救父亲的女人，意外买到了整座人生的重新定价权。 动画综艺" data-year="2021" data-type="电影">
+      <a class="card-link" href="movies/movie-0023.html">
+        <figure class="card-cover">
+          <img src="23.jpg" alt="一刻千金" loading="lazy">
+          <figcaption>全41集</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>一刻千金</h3>
+          <p>当城市里出现可以买卖“分钟”的黑市规则后，一个本来只想救父亲的女人，意外买到了整座人生的重新定价权。</p>
+          <div class="card-meta">
+            <span>动画综艺</span>
+            <span>2021</span>
+          </div>
+          <div class="card-tags">时间交易 / 职场博弈 / 亲情</div>
+        </div>
+      </a>
+    </article>
+    <article class="movie-card compact-card" data-movie-card data-search="扶贫记 中国大陆 剧集 2024 剧情、乡村 乡村振兴 基层干部 热血 真实改编 温情 名牌大学毕业生回乡扶贫，却发现最大的“贫困”是人心，一场硬仗就此打响。 动画综艺" data-year="2024" data-type="剧集">
+      <a class="card-link" href="movies/movie-0024.html">
+        <figure class="card-cover">
+          <img src="24.jpg" alt="扶贫记" loading="lazy">
+          <figcaption>全15集</figcaption>
+        </figure>
+        <div class="card-body">
+          <h3>扶贫记</h3>
+          <p>名牌大学毕业生回乡扶贫，却发现最大的“贫困”是人心，一场硬仗就此打响。</p>
+          <div class="card-meta">
+            <span>动画综艺</span>
+            <span>2024</span>
+          </div>
+          <div class="card-tags">乡村振兴 / 基层干部 / 热血</div>
+        </div>
+      </a>
+    </article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <section>
+        <div class="footer-brand">
+          <span class="brand-icon" aria-hidden="true">▣</span>
+          <span>国产剧集片库</span>
+        </div>
+        <p>国产精选电视剧栏目按题材和口碑筛选剧集，提供国产剧片库、片单与持续更新内容。</p>
+      </section>
+      <section>
+        <h2>内容分类</h2>
+        <div class="footer-links">
+          <a href="categories/domestic-drama.html">国产剧集</a>
+          <a href="categories/urban-romance.html">都市情感</a>
+          <a href="categories/suspense-crime.html">悬疑犯罪</a>
+          <a href="categories/comedy-life.html">喜剧生活</a>
+          <a href="categories/action-fantasy.html">动作奇幻</a>
+          <a href="categories/family-realism.html">家庭现实</a>
+        </div>
+      </section>
+      <section>
+        <h2>快速入口</h2>
+        <div class="footer-links">
+          <a href="categories.html">分类总览</a>
+          <a href="rankings.html">热门排行榜</a>
+          <a href="search.html">全站搜索</a>
+        </div>
+      </section>
+    </div>
+    <div class="footer-bottom">© 2026 国产剧集片库 · 精选剧集片库持续更新</div>
+  </div>
+</footer>
+  <script src="assets/search-data.js"></script>
+  <script src="assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
